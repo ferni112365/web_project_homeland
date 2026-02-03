@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+}
+
+.header__logo {
+  width: 32px;
+  height: 32px;
+}
+
+.header__tagline {
+  color: #fff;
+  /* margin-top: 54px; */
+}
+
+/* Group 12
+position: absolute;
+width: 254.84px;
+height: 14.94px;
+left: 0px;
+top: 54px; */
