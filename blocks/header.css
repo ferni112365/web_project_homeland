@@ -12,12 +12,24 @@
 
 .header__tagline {
   color: #fff;
-  /* margin-top: 54px; */
+  margin-top: 22px;
+  /* width: 254.84px;
+  height: 14.94px; */
 }
 
-/* Group 12
-position: absolute;
-width: 254.84px;
-height: 14.94px;
-left: 0px;
-top: 54px; */
+@media screen and (max-width: 1024px) {
+  .header {
+    padding-top: 30px;
+  }
+
+  .header__logo {
+    width: 32px;
+    height: 30.17px;
+  }
+
+  .header__tagline {
+    /* width: 254.84px;
+    height: 14.09px; */
+    margin-top: 20.98px;
+  }
+}
