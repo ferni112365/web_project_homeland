@@ -97,4 +97,17 @@
     width: 228px;
     height: 88px;
   }
+
+  .lead__subtitle {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    /* leading-trim: NONE; */
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 228px;
+    height: 40px;
+    margin-top: 16px;
+  }
 }
