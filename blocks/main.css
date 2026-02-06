@@ -1,6 +1,5 @@
 .main {
   color: #ffffff;
-  margin-top: 91.06px;
 }
 
 .main__lead {
@@ -23,7 +22,7 @@
   text-align: center;
   width: 720px;
   height: 200px;
-  margin-top: 97.6px;
+  margin-top: 91.06px;
   margin-bottom: 0px;
 }
 
@@ -50,7 +49,6 @@
   .main__lead {
     width: 530px;
     height: 158px;
-    margin-top: 90px;
   }
 
   .lead__title {
@@ -63,6 +61,7 @@
     text-align: center;
     width: 530px;
     height: 158px;
+    margin-top: 90px;
   }
 
   .lead__subtitle {
@@ -76,5 +75,11 @@
     width: 720px;
     height: 72px;
     margin-top: 25px;
+  }
+
+  .lead__image {
+    width: 768px;
+    height: 480px;
+    margin-top: 30px;
   }
 }
