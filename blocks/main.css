@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 0;
   margin: auto;
 }
 
@@ -46,6 +47,13 @@
 }
 
 .main__intro {
+  max-width: 830px;
+  max-height: 607px;
+  margin-top: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 
 .intro__title {
