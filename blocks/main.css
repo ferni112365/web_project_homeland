@@ -4,12 +4,11 @@
 
 .main__lead {
   max-width: 983px;
-  max-height: 984px;
+  /* max-height: 984px; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 0;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .lead__title {
@@ -17,9 +16,7 @@
   font-weight: 900;
   font-weight: bold;
   font-size: 96px;
-  /* leading-trim: NONE; */
   line-height: 100px;
-  /* letter-spacing: 0%; */
   text-align: center;
   width: 720px;
   height: 200px;
@@ -31,9 +28,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 30px;
-  /* leading-trim: NONE; */
   line-height: 1.2;
-  /* letter-spacing: 0%; */
   text-align: center;
   max-width: 720px;
   max-height: 72px;
@@ -49,11 +44,10 @@
 .main__intro {
   max-width: 830px;
   max-height: 607px;
-  margin-top: 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  margin: 92px auto 0px;
 }
 
 .intro__title {
@@ -72,9 +66,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: 75px;
-    /* leading-trim: NONE; */
     line-height: 1;
-    /* letter-spacing: 0%; */
     text-align: center;
     width: 530px;
     height: 158px;
@@ -85,9 +77,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 30px;
-    /* leading-trim: NONE; */
     line-height: 1.2;
-    /* letter-spacing: 0%; */
     text-align: center;
     width: 720px;
     height: 72px;
@@ -106,9 +96,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: 40px;
-    /* leading-trim: NONE; */
     line-height: 1.1;
-    /* letter-spacing: 0%; */
     text-align: center;
     margin-top: 50px;
     width: 228px;
@@ -119,9 +107,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    /* leading-trim: NONE; */
     line-height: 1.2px;
-    /* letter-spacing: 0%; */
     text-align: center;
     width: 228px;
     height: 40px;
