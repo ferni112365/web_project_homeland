@@ -1,7 +1,7 @@
 .footer {
-  margin: 42px auto 0;
-  padding-bottom: 24px;
   max-width: 250px;
+  padding: 57px 0 24px;
+  margin: 0 auto;
 }
 
 .footer__copyright {
