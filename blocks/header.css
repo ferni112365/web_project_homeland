@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 544px) {
   .header {
-    padding: 20px 0 34px;
+    padding: 20px auto 20px;
     max-width: 188px;
     margin: 0 auto;
   }
@@ -41,11 +41,11 @@
   .header__logo {
     max-width: 23.69px;
     max-height: 23.77px;
+    margin: 0;
   }
 
   .header__tagline {
-    width: 188.62px;
-    height: 11.1px;
+    max-width: 188.62px;
     margin: 16.53px 0 0;
   }
 }
