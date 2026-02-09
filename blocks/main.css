@@ -94,7 +94,30 @@
 
   .intro {
     max-width: 720px;
-    padding: 40px 0 0 24px;
+    padding: 33px 0 50px 24px;
+  }
+
+  .intro__title {
+    max-width: 98%;
+    font-size: 45px;
+    line-height: 1.1;
+    letter-spacing: 0%;
+    margin: 0 auto 25px;
+  }
+
+  .intro__text--first {
+    max-width: 100%;
+    margin: 25px auto 0;
+  }
+
+  .intro__text--second {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .intro__text--third {
+    max-width: 100%;
+    margin: 32px auto 0;
   }
 }
 
