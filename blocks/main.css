@@ -80,25 +80,9 @@
   margin: 32px 0 0;
 }
 
-.footer {
-  margin: 42px auto 0;
-  padding-bottom: 24px;
-  max-width: 250px;
-}
-
-.footer__copyright {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 1024px) {
-  .main__lead {
-    width: 530px;
-    height: 158px;
+  .lead {
+    padding: 57px 0 30;
   }
 
   .lead__title {
@@ -127,6 +111,10 @@
     width: 768px;
     height: 480px;
     margin-top: 30px;
+  }
+
+  .intro {
+    padding: 60px 0 50px;
   }
 }
 
