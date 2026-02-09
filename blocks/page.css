@@ -1,16 +1,12 @@
 body {
-  background-color: #2a2c2f;
+  /* background-color: #2a2c2f; */
 }
 
 .page {
+  background-color: #2a2c2f;
   font-family: "Inter";
   max-width: 1280px;
-  margin: auto;
+  min-width: 320px;
+  margin: 0 auto;
+  color: #ffffff;
 }
-
-/* @media screen and (max-width: 544px) {
-  .page {
-    width: 100%;
-    max-width: 90%;
-  }
-} */
