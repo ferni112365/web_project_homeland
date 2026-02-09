@@ -24,8 +24,7 @@
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
-  max-width: 720px;
-  max-height: 72px;
+  max-width: 73%;
   margin: 32px auto 64px;
 }
 
@@ -50,7 +49,7 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  max-width: 830px;
+  max-width: 100%;
 }
 
 .intro__text {
@@ -62,17 +61,23 @@
 .intro__text--first {
   font-size: 24px;
   line-height: 1.4;
+  max-width: 89%;
+  margin: 40 0 0;
 }
 
 .intro__text--second {
   font-size: 24px;
   line-height: 1.4;
   text-align: right;
+  max-width: 89%;
+  margin: 10px 0 0;
 }
 
 .intro__text--third {
   font-size: 16px;
   line-height: 163%;
+  max-width: 87%;
+  margin: 32px 0 0;
 }
 
 .footer {
@@ -87,7 +92,6 @@
   font-size: 14px;
   line-height: 16px;
   max-width: 100%;
-  width: 100%;
   margin: 0 auto;
 }
 
