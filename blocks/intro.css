@@ -17,14 +17,14 @@
   font-weight: 400;
 }
 
-.intro__text--main {
+.intro__text_main {
   font-size: 24px;
   line-height: 1.4;
   max-width: 89%;
   margin: 40px 0 0;
 }
 
-.intro__text--cite {
+.intro__text_cite {
   font-size: 24px;
   line-height: 1.4;
   text-align: right;
@@ -32,7 +32,7 @@
   margin: 10px 0 0;
 }
 
-.intro__text--description {
+.intro__text_description {
   font-size: 16px;
   line-height: 163%;
   max-width: 87%;
