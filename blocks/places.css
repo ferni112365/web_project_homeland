@@ -5,6 +5,7 @@
 }
 
 .places__place {
+  max-width: 99%;
 }
 
 .place__title {
@@ -24,16 +25,40 @@
 }
 
 .place__website {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  max-width: 46%;
+  margin: 85px 0 48px 40px;
 }
 
 .place__url-heading {
+  font-size: 12px;
+  line-height: 100%;
+  color: #aaaaaa;
+  margin: 0 0 8px;
 }
 
 .place__artist {
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .place__paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  max-width: 49%;
 }
 
 .place__frame {
+  max-width: 32%;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  padding: 13px 20px;
 }
