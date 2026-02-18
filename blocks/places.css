@@ -62,6 +62,16 @@
   max-width: 49%;
 }
 
+.place__paragraph_first {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.place__paragraph_second {
+  grid-column: 2;
+  grid-row: 3;
+}
+
 .place__frame {
   max-width: 32%;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
@@ -71,4 +81,6 @@
   font-size: 18px;
   line-height: 100%;
   padding: 13px 20px;
+  grid-column: 1;
+  grid-row: 4;
 }
