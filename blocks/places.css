@@ -5,7 +5,7 @@
 }
 
 .places__place {
-  max-width: 99%;
+  max-width: 99.6%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto);
@@ -17,7 +17,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 1;
-  max-width: 460px;
+  max-width: 93%;
   /* margin: 0; */
   grid-column: 1;
   grid-row: 1;
@@ -35,7 +35,7 @@
 .place__website {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  max-width: 100%;
+  max-width: 93%;
   /* margin: 85px 0 48px 40px; */
   grid-column: 2;
   grid-row: 1;
