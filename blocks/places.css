@@ -59,7 +59,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  max-width: 49%;
+  max-width: 98%;
 }
 
 .place__paragraph_first {
@@ -73,7 +73,7 @@
 }
 
 .place__frame {
-  max-width: 32%;
+  max-width: 61%;
   background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   color: #ffffff;
   font-family: "Inter", sans-serif;
