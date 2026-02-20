@@ -9,7 +9,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, auto) 1fr;
-  column-gap: 48px 40px;
   margin: 0 auto 80px;
   align-items: start;
 }
