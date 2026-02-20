@@ -115,6 +115,7 @@
   box-shadow: 5px 5px 10px #00000040;
   border: none;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .place__frame:hover {
