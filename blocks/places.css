@@ -49,13 +49,13 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   max-width: 93%;
-  margin: 107px 0 20px;
+  margin: 107px 0 0;
   grid-column: 2;
   grid-row: 1;
 }
 
 .place__website_short {
-  margin: 85px 0 20px;
+  margin: 85px 0 0;
 }
 
 .place__url-heading {
@@ -71,19 +71,20 @@
   margin: 0;
 }
 
+.place__description {
+  grid-column: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  margin: 48px 0 0;
+}
+
 .place__paragraph {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
   max-width: 100%;
-  margin: 25px 0 0;
-}
-
-.place__description {
-  grid-column: 2;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  margin: 0 0 25px;
 }
 
 .place__frame {
