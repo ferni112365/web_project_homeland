@@ -30,7 +30,6 @@
   .photo-grid {
     grid-template-columns: 1fr;
     grid-template-rows: 8fr;
-    gap: 12px;
     max-width: 90%;
     padding: 12px 0 10px;
   }
