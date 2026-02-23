@@ -11,7 +11,14 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     max-width: 94%;
-    padding: 64px auto auto;
+    max-height: 1104px;
+    padding: 14px 0 30px;
+  }
+
+  .photo-grid__item {
+    max-width: 94%;
   }
 }
