@@ -149,6 +149,10 @@
     margin: 48px 28px 0 0;
   }
 
+  .places__place:nth-child(2) .place__image_shadow_black {
+    box-shadow: 10px 0 25px rgba(0, 0, 0, 0.5);
+  }
+
   .place__website {
     max-width: 100%;
     margin: 0;

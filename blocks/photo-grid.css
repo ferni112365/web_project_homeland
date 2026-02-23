@@ -25,3 +25,18 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 544px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 8fr;
+    gap: 12px;
+    max-width: 90%;
+    max-height: 1812px;
+    padding: 12px 0 10px;
+  }
+
+  .photo-grid__item {
+    box-shadow: none;
+  }
+}
