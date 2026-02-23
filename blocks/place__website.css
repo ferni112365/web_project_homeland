@@ -11,19 +11,6 @@
   margin: 85px 0 0;
 }
 
-.place__url-heading {
-  font-size: 12px;
-  line-height: 1;
-  color: #aaaaaa;
-  margin: 0 0 8px;
-}
-
-.place__artist {
-  font-size: 18px;
-  line-height: 1.2;
-  margin: 0;
-}
-
 @media screen and (max-width: 1024px) {
   .place__website {
     max-width: 100%;
