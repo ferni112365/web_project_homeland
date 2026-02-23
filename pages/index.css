@@ -13,4 +13,7 @@
 @import url("../blocks/place__image.css");
 @import url("../blocks/place__website.css");
 @import url("../blocks/place__url-heading.css");
+@import url("../blocks/place__artista.css");
+@import url("../blocks/place__description.css");
+@import url("../blocks/place__paragraph.css");
 @import url("../blocks/place__frame.css");
