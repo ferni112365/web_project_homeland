@@ -8,3 +8,9 @@
 @import url("../blocks/intro.css");
 @import url("../blocks/photo-grid.css");
 @import url("../blocks/places.css");
+@import url("../blocks/place.css");
+@import url("../blocks/place__title.css");
+@import url("../blocks/place__image.css");
+@import url("../blocks/place__website.css");
+@import url("../blocks/place__description.css");
+@import url("../blocks/place__frame.css");
