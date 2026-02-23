@@ -1,0 +1,15 @@
+.place__description {
+  grid-column: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  margin: 48px 0 0;
+}
+
+.place__paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  max-width: 100%;
+  margin: 0 0 25px;
+}
