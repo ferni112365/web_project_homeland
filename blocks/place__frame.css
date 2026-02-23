@@ -24,3 +24,19 @@
   );
   box-shadow: 5px 5px 10px #00000040;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__frame {
+    margin: 48px 0 0;
+    max-width: 69%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .place__frame {
+    grid-column: 1;
+    grid-row: 5;
+    max-width: 90%;
+    margin: 30px auto 0;
+  }
+}

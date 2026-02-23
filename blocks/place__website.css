@@ -23,3 +23,27 @@
   line-height: 1.2;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .places__place:nth-child(3) .place__website {
+    margin: 47px 0 0;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .place__website {
+    grid-column: 1;
+    grid-row: 2;
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .places__place:nth-child(3) .place__website {
+    margin: 30px auto;
+  }
+}
