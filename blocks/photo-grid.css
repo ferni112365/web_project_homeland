@@ -2,11 +2,12 @@
   padding: 68px 0 30px;
   margin: 0 auto;
   max-width: 93%;
-  max-height: 442px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 16px;
+  object-fit: cover;
+  display: block;
 }
 
 @media screen and (max-width: 1024px) {
@@ -14,7 +15,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     max-width: 94%;
-    max-height: 1104px;
     padding: 14px 0 30px;
   }
 
@@ -32,7 +32,6 @@
     grid-template-rows: 8fr;
     gap: 12px;
     max-width: 90%;
-    max-height: 1812px;
     padding: 12px 0 10px;
   }
 
