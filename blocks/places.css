@@ -166,4 +166,8 @@
     margin: 48px 0 0;
     max-width: 69%;
   }
+
+  .footer {
+    padding: 13px 0 25px;
+  }
 }
