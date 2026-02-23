@@ -126,7 +126,13 @@
 
   .places__place {
     max-width: 100%;
-    margin: 0 0 72px;
+    margin: 0 0 47px;
+  }
+
+  .places__place:nth-child(2) .place__title,
+  .places__place:nth-child(3) .place__title,
+  .places__place:nth-child(4) .place__title {
+    margin-top: 0px;
   }
 
   .place__title {
@@ -146,5 +152,18 @@
   .place__website {
     max-width: 100%;
     margin: 0;
+  }
+
+  .places__place:nth-child(3) .place__website {
+    margin: 47px 0 0;
+  }
+
+  .place__paragraph {
+    font-size: 16px;
+  }
+
+  .place__frame {
+    margin: 48px 0 0;
+    max-width: 69%;
   }
 }
